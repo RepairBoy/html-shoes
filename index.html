@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes!!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <style>
+
+        body{
+            background-color: #9A4444;
+            text-align: center;
+        }
+        h1{
+            color: 
+            #DE8F5F;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 5rem;
+            margin-bottom: 0%;
+        }
+        footer{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .container{
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+          }
+
+         .box{
+            max-width: 400px;
+            flex: 1;
+            padding: 20px;
+            border-radius: 50px;
+            text-align: center;
+          }
+         
+          .container img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+
+          @media (max-width: 480px) {
+            .container {
+              flex-direction: column;
+              height: 90%;
+            }
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>shoes for you</h1>
+    <div class="container">
+        <div class="box pics">
+            <a href="./adidas.html"><img src="./assets/pictures/adidas logo.jpeg" alt="adidas logo"></a>
+        </div>
+        <div class="box pics">
+            <a href="./nike.html"><img src="./assets/pictures/nike logo.jpeg" alt="nike logo"></a>  
+        </div>
+        <div class="box pics">
+            <a href="./puma.html"><img src="./assets/pictures/puma logo.jpg" alt="puma logo"></a>
+        </div>
+    </div>
+    <footer> ©vijin robinson</footer>
+</body>
+</html>
